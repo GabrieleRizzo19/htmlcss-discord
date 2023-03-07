@@ -2,11 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    background-color: #add8e6;
+    /* background-color: #add8e6; */
     min-height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
 }
 
 .flexContainer{
@@ -15,27 +18,29 @@ header{
     justify-content: space-between;
 }
 
-.dashedBorder{
+/* .dashedBorder{
     border: 1px dashed black;
-}
+} */
 
-header div:first-child, nav *{
+/* header div:first-child, nav *{
     padding: 1em 0;
-}
+} */
 
 nav{
-    background-color: #daa520;
+    /* background-color: #daa520; */
 }
 
 #logoHeader{
     flex-grow: 1;
-    padding-left: 5px;
+    padding: 1em 0 1em 5px;
+    
 }
 
 #linkHeader{
     text-align: center;
     flex-grow: 3;
-    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #loginHeader{
@@ -43,23 +48,55 @@ nav{
     display: flex;
     justify-content: flex-end;
     padding-right: 5px;
+    align-items: center;
+}
+
+.button{
+    border-radius: 25px;
+    border: none;
+    padding: 15px 20px;
 }
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 header section{
-    background-color: darkblue;
-    min-height: 500px;
-    padding: 2em 0;
+    /* background-color: darkblue; */
+    min-height: 400px;
 }
 
 .violetBox{
-    background-color: violet;
+    /* background-color: violet; */
     min-height: 400px;
     max-width: 900px;
     margin: 2em auto;
+    text-align: center;
+    color: white;
+}
+
+.violetBox h1{ 
+    font-size: 3em;
+    margin: 35px auto;
+}
+
+.violetBox p{
+    padding: 0 9em;
+}
+
+#headerButton{
+    margin-top: 1.5em;
+}
+
+#downArrow{
+    font-weight: bolder;
+}
+
+#discordOnBrowserButton{
+    margin-left: 20px;
+    background-color: #23272a;
+    color: white;
 }
 
 main > div{
@@ -72,13 +109,22 @@ main > div{
 }
 
 .blueColumn{
-    background-color: #1e90ff;
+    /* background-color: #1e90ff; */
     flex-grow: 6;
 }
 
 .pinkColumn{
-    background-color: #ffc0cb;
+    /* background-color: #ffc0cb; */
     flex-grow: 4;
+    padding: 2.5em 7em;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+.pinkColumn p{
+    margin-top: 2em;
 }
 
 .bgGrey{

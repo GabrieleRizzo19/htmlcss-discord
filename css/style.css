@@ -229,16 +229,9 @@ footer{
     min-height: 80px;
 }
 
-#logoFooter, #buttonFooter{
-    min-height: 38px;
-    padding: 0.5em 0;
-}
-
 #buttonFooter{
     background-color: #8ea1e1;
     border: none;
-    border-radius: 20px;
-    padding: 10px;
     color: white;
 }
 

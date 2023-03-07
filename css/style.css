@@ -54,6 +54,10 @@ a{
     color: white;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 header section{
     min-height: 400px;
 }
@@ -198,10 +202,6 @@ footer{
 .insideAquamarineColumn li{
     list-style: none;
     margin-bottom: 1em;
-}
-
-.insideAquamarineColumn li a:hover{
-    text-decoration: underline;
 }
 
 #footerTop{

@@ -129,7 +129,7 @@ h2 + p{
 
 .wave{
     display: block;
-    width: 99vw;
+    width: 100%;
     opacity: 0.18;
 }
 
@@ -174,7 +174,7 @@ h3{
 footer{
     min-height: 750px;
     background-color: #23272a;
-    padding-top: 1em;
+    padding-top: 5em;
 }
 
 .textColorBlue{
@@ -182,12 +182,12 @@ footer{
 }
 
 .salmonAquamarineBox{
-    min-height: 600px;
+    min-height: 400px;
     color: white;
 }
 
 .salmonColumn{
-    background-color: #f08080;
+    /* background-color: #f08080; */
     flex-grow: 3;
 }
 
@@ -201,13 +201,13 @@ footer{
 }
 
 .aquamarineColumn{
-    background-color: #20b2aa;
+    /* background-color: #20b2aa; */
     flex-grow: 7;
 }
 
 .insideAquamarineColumn{
     flex-grow: 1;
-    border: 1px dashed white;
+    /* border: 1px dashed white; */
     text-align: left;
 }
 
@@ -220,19 +220,35 @@ footer{
     margin-bottom: 2em;
 }
 
+#languageSelector{
+    display: block;
+    margin-bottom: 1em;
+}
+
+.fa-brands{
+    margin-right: 1em;
+}
+
 #footerBottom{
     margin-top: 2em;
-    background-color: #7fffd4;
+    /* background-color: #7fffd4; */
     align-items: center;
     min-height: 80px;
 }
 
 #logoFooter, #buttonFooter{
-    background-color: #ffb6c1;
+    /* background-color: #ffb6c1; */
     min-height: 38px;
     padding: 0.5em 0;
 }
 
+#buttonFooter{
+    background-color: #8ea1e1;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
 
 .marginzeroauto{
     margin: 0 auto;

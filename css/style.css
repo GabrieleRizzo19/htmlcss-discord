@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #add8e6;
+    min-height: 500px;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dashedBorder{
+    border: 1px dashed black;
+}
+
+header div:first-child, nav *{
+    padding: 1em 0;
+}
+
+nav{
+    background-color: #daa520;
+}
+
+#logoHeader{
+    flex-grow: 1;
+    padding-left: 5px;
+}
+
+#linkHeader{
+    text-align: center;
+    flex-grow: 3;
+    text-decoration: none;
+}
+
+#loginHeader{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header section{
+    background-color: darkblue;
+    min-height: 500px;
+    padding: 2em 0;
+}
+
+.violetBox{
+    background-color: violet;
+    min-height: 400px;
+    max-width: 900px;
+    margin: 2em auto;
+}
+
+main > div{
+    height: 600px;
+    padding: 50px 0;
+}
+
+.pinkBlueBox{
+    min-height: 500px;
+}
+
+.blueColumn{
+    background-color: #1e90ff;
+    flex-grow: 6;
+}
+
+.pinkColumn{
+    background-color: #ffc0cb;
+    flex-grow: 4;
+}
+
+.bgGrey{
+    background-color: #d3d3d3;
+}
+
+main > div:last-child{
+    min-height: 1000px;
+}
+
+.greenBox{
+    background-color: green;
+    min-height: 900px;
+}
+
+footer{
+    min-height: 750px;
+    background-color: #23272a;
+    padding-top: 1em;
+}
+
+.salmonAquamarineBox{
+    min-height: 600px;
+}
+
+.salmonColumn{
+    background-color: #f08080;
+    flex-grow: 3;
+}
+
+.aquamarineColumn{
+    background-color: #20b2aa;
+    flex-grow: 7;
+}
+
+.insideAquamarineColumn{
+    flex-grow: 1;
+    border: 1px dashed white;
+}
+
+#footerTop{
+    margin-bottom: 2em;
+}
+
+#footerBottom{
+    margin-top: 2em;
+    background-color: #7fffd4;
+    align-items: center;
+    min-height: 80px;
+}
+
+#logoFooter, #buttonFooter{
+    background-color: #ffb6c1;
+    min-height: 38px;
+    padding: 0.5em 0;
+}
+
+
+.marginzeroauto{
+    margin: 0 auto;
+}
+
+.mw1200{
+    max-width: 1200px;
+}

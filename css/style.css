@@ -216,13 +216,23 @@ footer{
     margin-bottom: 1em;
 }
 
+.insideAquamarineColumn li a:hover{
+    text-decoration: underline;
+}
+
 #footerTop{
     margin-bottom: 2em;
 }
 
-#languageSelector{
+#language{
     display: block;
     margin-bottom: 1em;
+}
+
+#languageSelector{
+    background-color: #23272a;
+    color: white;
+    border: none;
 }
 
 .fa-brands{

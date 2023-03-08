@@ -6,7 +6,6 @@
 }
 
 header{
-    /* background-color: #add8e6; */
     min-height: 500px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -20,8 +19,7 @@ header{
 
 #logoHeader{
     flex-grow: 1;
-    padding: 1em 0 1em 5px;
-    
+    padding: 1em 0 1em 5px; 
 }
 
 #linkHeader{
@@ -73,6 +71,10 @@ header section{
 .violetBox h1{ 
     font-size: 3em;
     margin: 35px auto;
+}
+
+p{
+    line-height: 1.5em;
 }
 
 .violetBox p{
